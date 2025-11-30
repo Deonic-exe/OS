@@ -1,0 +1,71 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(26, 27, 38, 0.5); /* Transparan Gelap */
+    color: #c0caf5;
+}
+
+#window {
+    font-weight: bold;
+    color: #64C4FF; /* Neon Cyan */
+}
+
+/* Workspaces */
+#workspaces {
+    background: #16161e;
+    margin: 5px;
+    padding: 0 5px;
+    border-radius: 16px;
+    border: 1px solid #64C4FF;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    color: #7aa2f7;
+}
+
+#workspaces button.active {
+    color: #16161e;
+    background: #64C4FF;
+    border-radius: 16px;
+}
+
+/* Modules Right */
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray {
+    background: #16161e;
+    padding: 0 10px;
+    margin: 5px 2px;
+    border-radius: 10px;
+    border-bottom: 2px solid #64C4FF; /* Garis bawah neon */
+    color: #ffffff;
+}
+
+#clock {
+    background: #64C4FF;
+    color: #16161e;
+    font-weight: bold;
+    border: none;
+}
+
+#cpu {
+    color: #F7768E; /* Merah Muda */
+}
+
+#memory {
+    color: #9ECE6A; /* Hijau */
+}
+
+#network {
+    color: #BB9AF7; /* Ungu */
+}
